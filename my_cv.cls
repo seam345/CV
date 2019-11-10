@@ -31,7 +31,9 @@
 
 \newcommand{\workDetails}[5]
 {
-	\subsection{\textbf{#1 \hfill #5\\#2 \hfill (#3)\\#4}}
+%	\subsection{\textbf{#1 \hfill #5\\#2 \hfill (#3)\\#4}}
+%	\subsection{\textbf{#1 \hfill #5\\#2 \hfill (#3)}} %  company first
+	\subsection{\textbf{#2 \hfill #5\\#1 \hfill (#3)}} %  position first
 }
 
 
@@ -39,7 +41,12 @@
 {
 	\subsection{\textbf{#1 \hfill #3\\#2}}
 }
-
+\newcommand{\experianceDetails}[5]
+{
+%	\subsection{\textbf{#1 \hfill #5\\#2 \hfill (#3)\\#4}}
+	\subsection{\textbf{#2 \hfill #5\\#1 \hfill #3}} 
+%	\subsection{\textbf{#2 \hfill #5\\#1 }} 
+}
 
 
 %sall change this to something else and add a comand that adds skills
