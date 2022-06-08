@@ -31,9 +31,10 @@
 {www.seanborg.tech}
 
 \section{Personal Statement}
-Currently a Junior software developer at Codethink
 
-%I am currently a reliable hard working freelance software developer with a passion for learning new technologies and languages. Following University I have seen several projects through to completion both with clients and independently.
+%Currently a Junior software developer at Codethink
+
+I am a reliable hard working software developer with a passion for learning new technologies and languages. Following University I have seen several projects through to completion both with clients and independently.
 %
 %Over the last 4 years I have used Linux to help me automate and resolve many repetitive tasks. I enjoy working with a team or independently to find solutions meet deadlines and deliver expectations in a timely manner.
 %
@@ -67,7 +68,7 @@ Currently a Junior software developer at Codethink
 %I am reliable, hard working and dedicated to software development. I enjoy working with others on projects to consider their plans by developing a computer programme/system that delivers their vision\\
 %Software developer with an enthusiasm for self learning
 %\textbf{passion for low level programming\\enjoys tweaking hardware\\reliable\\ability to collaborate with others and through Git}
-\section{Employment}
+\section{Work}
 
 \workDetails
 {Codethink}
@@ -76,12 +77,24 @@ Currently a Junior software developer at Codethink
 {Manchester, United Kingdom}
 {April 2020 - Current}
 \workdetails
-{learned rust}
-{started LPI training}
+%{learned rust}
+{Learned and made heavy use of CI, mainly through gitlab (I now have a personal cluster of RPI runners) but also using jenkins and circle CI}
 {jumped into snipe it and got MR merged upstream github.com/snipe/snipe-it/pull/8220}
 {Learned a lot more about Git using  rebase -i and many more git tools}
 \stopworkdetails
 
+\workDetails
+{Android app}
+{Track a Train}
+{CEO? }
+{Manchester, United Kingdom}
+{Nov 2019 - Current}
+\workdetails
+{Making good use of unit tests to prevent regressions while iterating quickly}
+{Gained understanding of android ecosystem; apis, google play store listing, charging subscriptions natively in app}
+{\textbf{trackatrain.co.uk }Access to source code available on request}
+%{Soon to be released Android app to track a train for delays/ arrival times. Backend written in Go, to provide timetable information, later to be processing national rails disruption information.}
+\stopworkdetails
 
 \workDetails
 {Handsfree Group}
@@ -94,7 +107,7 @@ Currently a Junior software developer at Codethink
 {Front-end, for an internal audit app, progressed into full stack after initial deployment}
 {Beta version of 'DVSA earned recognition' compliant software }
 {Back-end. Agency Driver Onboarding and Defect Reporting app, working with unit tests to reduce bugs}
-{Produced a demo Android app to communicate with a Pietel PTCarPhone}% \textbf{in 4 days}}
+{Produced a demo Android app to communicate with a Pietel PTCarPhone \textbf{in 4 days}}
 %{\sout{Backend Defect reporting app, using unit test to keep code correct}}
 %{\sout{Agency driver onboarding, backend using unit test to keep code correct }}
 %{\sout{Defect reporting app, backend using unit test to keep code correct}}
@@ -103,51 +116,76 @@ Currently a Junior software developer at Codethink
 %{Fixes and improvements to a telematics system both front (Angular) and back end (Django).}
 %{Skills obtained: Knowledge of  Angular, Django and Google cloud platform}
 \stopworkdetails
+%
+%\workDetails
+%{Open Data Manchester}
+%{3D modelling}
+%{Contract}
+%{Manchester, United Kingdom}
+%{May 2019 - July 2019}
+%\workdetails
+%{Developed a converter for GEOJSON to STL to quickly generate pieces for a 3D printed map of Greater Manchester to visualise the May 2019 local elections. Both presented and wrote a blog post about how the GEOJSON was converted into a physical model, which is also open sourced on GitHub. }
+%%{Made a 3D printed map of Greater Manchester visualising the May 2019 local elections, using custom built converter to convert GEOJSON to STL open sourced on GitHub} % if I'm going for a modeling job
+%{Modelled and printed Lego base plates in the shape of the UK using OpenSCAD, showcased at BlueDot festival. My continued use of OpenSCAD has lead me to contribute to the OpenSCAD codebase}
+%%{Skills obtained: Knowledge of  OpenScad, creating STL models}
+%\stopworkdetails
 
-\workDetails
-{Open Data Manchester}
-{3D modelling}
-{Contract}
-{Manchester, United Kingdom}
-{May 2019 - July 2019}
-\workdetails
-{Developed a converter for GEOJSON to STL to quickly generate pieces for a 3D printed map of Greater Manchester to visualise the May 2019 local elections. Both presented and wrote a blog post about how the GEOJSON was converted into a physical model, which is also open sourced on GitHub. }
-%{Made a 3D printed map of Greater Manchester visualising the May 2019 local elections, using custom built converter to convert GEOJSON to STL open sourced on GitHub} % if I'm going for a modeling job
-{Modelled and printed Lego base plates in the shape of the UK using OpenSCAD, showcased at BlueDot festival. My continued use of OpenSCAD has lead me to contribute to the OpenSCAD codebase}
-%{Skills obtained: Knowledge of  OpenScad, creating STL models}
-\stopworkdetails
+
 
 \section{Projects}
 \experianceDetails
-{Android app}
-{Track a Train}
+{Self taught}
+{Nixos}
 {}
 {Manchester, United Kingdom}
-{Nov 2019 - Current}
+{Feb 2021 - Current}
 \workdetails
-{Soon to be released Android app to track a train for delays/ arrival times. Backend written in Go, to provide timetable information, later to be processing national rails disruption information.}
+{Learned and installed Nixos on all my devices, allowing me to treat my devices much more like cattle as rebuilding one can be done in minutes}
+{Manage 10+ devices with Nixos/Krops that can be updated remotely and do a wide variety of tasks; personal laptop, work laptop, home NAS and home automation }
+\stopworkdetails
+
+\experianceDetails
+{Self taught}
+{rust}
+{}
+{Manchester, United Kingdom}
+{Dec 2020 - Current}
+\workdetails
+{}
 \stopworkdetails
 
 
 \experianceDetails
-{Optimising workflow}
-{Chrome Native Tab Saver}
-{}
-{Manchester, United Kingdom}
-{Aug 2019 - Current}
-\workdetails
-{Learned Chrome's native messaging to enable me to easily integrate Chrome tabs with automated actions}
-\stopworkdetails
-
-\experianceDetails
+{Home (boat) automation}
 {Personal}
-{Trello Node-Red node}
 {}
 {Manchester, United Kingdom}
-{Nov 2017 - Current}
+{Oct 2020 - Current}
 \workdetails
-{Developed nodes in Node-Red to help automate repeated Trello actions}
+{Rolled out sensors across boat to track various data points using open source tools; zigbe2mqtt, grafana, prometheus}
+{Expanded project with automatons in Node-Red, it now acts as my security system}
+{Thanks to nixos, all the computers are backed up nightly and easily redeployable in 15 min if any break}
 \stopworkdetails
+
+%\experianceDetails
+%{Optimising workflow}
+%{Chrome Native Tab Saver}
+%{}
+%{Manchester, United Kingdom}
+%{Aug 2019 - Current}
+%\workdetails
+%{Learned Chrome's native messaging to enable me to easily integrate Chrome tabs with automated actions}
+%\stopworkdetails
+
+%\experianceDetails
+%{Personal}
+%{Trello Node-Red node}
+%{}
+%{Manchester, United Kingdom}
+%{Nov 2017 - Current}
+%\workdetails
+%{Developed nodes in Node-Red to help automate repeated Trello actions}
+%\stopworkdetails
 
 %\experianceDetails
 %{Self taught}
@@ -169,15 +207,15 @@ Currently a Junior software developer at Codethink
 %{Helped build pipeline for a neural network and wrote SQL queries for future analysis}
 %\stopworkdetails
 
-\experianceDetails
-{Rasberry pi server}
-{RSS host}
-{}
-{Manchester, United Kingdom}
-{September 2017 - June 2018 }
-\workdetails
-{Using PHP to serve file directories as podcast  feeds. This allowed me to add my recorded lectures as podcast on my phone making it easier to manage phone storage.}
-\stopworkdetails
+%\experianceDetails
+%{Rasberry pi server}
+%{RSS host}
+%{}
+%{Manchester, United Kingdom}
+%{September 2017 - June 2018 }
+%\workdetails
+%{Using PHP to serve file directories as podcast  feeds. This allowed me to add my recorded lectures as podcast on my phone making it easier to manage phone storage.}
+%\stopworkdetails
 
 \experianceDetails
 {Competition}
@@ -186,7 +224,7 @@ Currently a Junior software developer at Codethink
 {Manchester, United Kingdom}
 {Jul 2016}
 \workdetails
-{65th out of 2405, creating a program to play Reversi(Othello) on hackerearth.com}
+{65th out of 2405, creating a program to play Reversi(Othello) on hackerearth.com in Java}
 \stopworkdetails
 
 \experianceDetails
